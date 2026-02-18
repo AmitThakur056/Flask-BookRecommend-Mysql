@@ -5,7 +5,7 @@ import pandas as pd
 class UserCf:
     # 这个类的主要功能是提供一个基于用户的协调过滤算法接口
     
-    def __init__(self):
+    def __init__(self):   
         self.file_path = './data/BX-Book-Ratings.csv'
         self._init_frame()
 
